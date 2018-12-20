@@ -1,0 +1,23 @@
+{
+  "name": "yandex-image-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/p-queue": "^3.0.0",
+    "@types/p-throttle": "^1.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mocha": "^5.2.0",
+    "p-queue": "^3.0.0",
+    "p-throttle": "^2.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.10",
+    "@types/request-promise": "^4.1.42",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
