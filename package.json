@@ -4,9 +4,10 @@
   "main": "./dist/index.js",
   "license": "MIT",
   "bin": {
-    "yidl": "./bin/yidl.js"
+    "yidl": "./bin/yidl"
   },
   "scripts": {
+    "build": "tsc",
     "pack": "npm pack"
   },
   "dependencies": {
