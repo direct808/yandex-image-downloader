@@ -7,8 +7,10 @@
     "yidl": "./bin/yidl"
   },
   "scripts": {
-    "build": "tsc",
-    "pack": "npm pack"
+    "build": "del-cli dist/* && tsc",
+    "watch": "tsc -w",
+    "pack": "yarn build && npm pack",
+    "publish": "yarn build && npm publish"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -27,6 +29,7 @@
     "@types/p-queue": "^3.0.0",
     "@types/p-throttle": "^1.1.0",
     "@types/request-promise": "^4.1.42",
+    "del-cli": "^1.1.0",
     "mocha": "^5.2.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.2"
